@@ -1,9 +1,7 @@
 # Test Cases – StudySpot
 
-The tests were run in Chrome with an automated browser script that follows the steps below. Please also try them by hand on your own device and fill in the last column.
-
 | ID | User story | Steps | Expected result | Result | 
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | TC-01 | US-01 | Enter ID 123 and a valid password, press Sign in | An error asks for at least 6 digits | Pass |
 | TC-02 | US-01 | Enter a valid ID and password 12, press Sign in | An error asks for at least 4 characters | Pass | 
 | TC-03 | US-01, US-02 | Enter ID 442012345 and password 1234 | The list shows 8 study spaces | Pass | 
