@@ -11,7 +11,7 @@ StudySpot is a simple web app for university students. A student can see the ava
 |---|---|
 | Farah Saad Aldughaishim | Product Owner |
 | Lama Ibrahim Alrabee | Scrum Master |
-| Joori Fahad Altunaifi | Development / QA |
+| Joori Fahad Alnutaifi | Development / QA |
 | Alhanouf Fahad Almalki | Development / QA |
 
 ## Features (by user story)
