@@ -34,19 +34,12 @@ StudySpot is a simple web app for university students. A student can see the ava
 | 2 | US-14 | Notifications for booking confirmed, booking cancelled and reminders |
 | 2 | US-15 | Profile: name and reminder time |
 
-## How to run
-
-1. Download or clone this repository.
-2. Open `index.html` in a web browser (Chrome, Edge or Safari). No installation is needed.
-
-To publish it online: **Settings → Pages → Deploy from a branch → main → / (root) → Save**, then open the link GitHub shows.
-
 ## Project structure
 
 ```
 index.html      the page
 style.css       colors and layout
-app.js          all the logic (with Arabic comments on every line)
+app.js          all the logic 
 TEST_CASES.md   test cases and results
 screenshots/    screenshots of the Sprint 2 features
 ```
@@ -55,8 +48,3 @@ screenshots/    screenshots of the Sprint 2 features
 
 19 test cases are listed in [TEST_CASES.md](TEST_CASES.md). All of them passed.
 
-## Limitations
-
-- This is a prototype. Data (bookings, notifications, profile) is saved in the browser of the device, not on a server.
-- Login is simulated, because the university single sign-on was not available. Any university ID with 6 or more digits and a password with 4 or more characters works.
-- Some busy times are sample data to demonstrate booking.
