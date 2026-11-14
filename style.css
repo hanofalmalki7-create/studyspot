@@ -1,0 +1,37 @@
+/* ملف التصميم: الألوان والأحجام. كل قاعدة عليها شرح */
+:root { --bg: #f3f4fa; --card: #ffffff; --ink: #1d2140; --gray: #5d6385; --main: #4b3fae; --green: #157a68; --greenbg: #dff4ee; --red: #b3345a; --redbg: #fbe3ea; --line: #dfe2ef; } /* ألوان نستخدمها في كل مكان */
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: Arial, sans-serif; } /* خلفية الصفحة ولون الكتابة ونوع الخط */
+.app { max-width: 480px; margin: 0 auto; padding: 12px 16px 96px; } /* عرض التطبيق مثل الجوال وتوسيطه */
+h1 { font-size: 28px; margin: 6px 0 14px; } /* العناوين الكبيرة */
+h2 { font-size: 18px; margin: 18px 0 8px; } /* العناوين الصغيرة */
+.top { display: flex; justify-content: space-between; } /* شريط الرجوع وتسجيل الخروج: واحد يمين وواحد يسار */
+.lnk { background: none; border: 0; color: var(--main); font-weight: bold; font-size: 16px; cursor: pointer; } /* أزرار نص بدون إطار */
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px; margin-bottom: 10px; } /* البطاقة البيضاء لكل مكان أو حجز */
+.tap { cursor: pointer; } /* المؤشر يتحول ليد عند البطاقة القابلة للضغط */
+.row { display: flex; justify-content: space-between; gap: 10px; } /* صف فيه عنصرين جنب بعض */
+.mut { color: var(--gray); font-size: 14px; } /* الكتابة الرمادية الصغيرة */
+.b { font-weight: bold; } /* كتابة عريضة */
+.badge { font-size: 13px; font-weight: bold; border-radius: 20px; padding: 3px 10px; height: fit-content; } /* الشارة الصغيرة (متاح / مشغول) */
+.ok { background: var(--greenbg); color: var(--green); } /* لون الأخضر للمتاح */
+.no { background: var(--redbg); color: var(--red); } /* لون الأحمر للمشغول */
+input, select { width: 100%; box-sizing: border-box; font-size: 16px; padding: 11px; border: 1.5px solid var(--line); border-radius: 10px; } /* حقول الكتابة والقوائم */
+.f { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin: 8px 0 14px; } /* الفلاتر الثلاثة جنب بعض */
+.btn { width: 100%; font-size: 16px; font-weight: bold; background: var(--main); color: white; border: 0; border-radius: 12px; padding: 13px; cursor: pointer; } /* الزر الأساسي */
+.btn:disabled { opacity: 0.45; cursor: not-allowed; } /* شكل الزر لما يكون معطل */
+.sec { background: white; color: var(--main); border: 1.5px solid var(--main); } /* زر ثانوي بإطار */
+.sm { width: auto; padding: 8px 14px; font-size: 14px; } /* زر صغير */
+.red { background: var(--red); } /* زر أحمر للإلغاء */
+.chips { display: flex; gap: 8px; margin: 8px 0; } /* أزرار الاختيار (اليوم والمدة) جنب بعض */
+.chip { flex: 1; font-size: 15px; padding: 9px 4px; border-radius: 10px; border: 1.5px solid var(--line); background: white; cursor: pointer; } /* شكل زر الاختيار */
+.on { background: var(--main); color: white; border-color: var(--main); } /* الزر المختار يتلون بالأساسي */
+.slots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; } /* الأوقات 4 في كل صف */
+.slot { font-size: 15px; padding: 10px 0; border-radius: 10px; border: 1.5px solid var(--green); background: white; color: var(--green); cursor: pointer; } /* الوقت المتاح */
+.busy { background: var(--redbg); color: var(--red); border-color: transparent; cursor: not-allowed; } /* الوقت المحجوز */
+.sel { background: var(--main); color: white; border-color: var(--main); } /* الوقت اللي اخترتيه */
+.nav { position: fixed; left: 0; right: 0; bottom: 0; display: flex; background: white; border-top: 1px solid var(--line); } /* القائمة اللي تحت ثابتة */
+.nav button { flex: 1; font-size: 13px; font-weight: bold; background: none; border: 0; padding: 14px 0; color: var(--gray); cursor: pointer; } /* أزرار القائمة */
+.nav button.on { background: none; color: var(--main); } /* زر القائمة المفتوح حالياً */
+.note { background: var(--greenbg); color: var(--green); border-radius: 12px; padding: 10px; margin-bottom: 12px; font-weight: bold; } /* مربع التذكير */
+.err { color: var(--red); font-size: 14px; } /* رسالة الخطأ */
+.stars button { font-size: 22px; background: none; border: 0; color: #e0a100; cursor: pointer; } /* نجوم التقييم */
+label { display: block; font-weight: bold; margin: 12px 0 4px; } /* عناوين حقول الدخول */
