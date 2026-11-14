@@ -3,7 +3,7 @@
 StudySpot is a simple web app for university students. A student can see the available study tables and rooms on campus, book one for a chosen time, and manage her bookings.
 
 **Course:** CS 388 – Agile Software Development, Princess Nourah Bint Abdulrahman University
-**Live demo:** ``
+**Live demo:** `https://github.com/hanofalmalki7-create/studyspot`
 
 ## Team
 
